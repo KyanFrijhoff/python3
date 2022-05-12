@@ -61,6 +61,9 @@ def keuze3(boodschaplijst):
       print("")
 
 def keuze4(boodschaplijst):
+  for key, value in boodschaplijst.items():
+      print(key, " €", value)
+      print("")
   if boodschaplijst == {}:
     print("Uw boodschappenlijst is leeg!")
     print("")
